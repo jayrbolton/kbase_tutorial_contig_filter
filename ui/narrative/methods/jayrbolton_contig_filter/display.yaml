@@ -1,10 +1,10 @@
 #
 # define display information
 #
-name: Method Name Here
+name: Jayrbolton Contig Filter Tutorial
 
 tooltip: |
-    Perform some kind of method
+    Filter out contigs that don't have a min length
 
 screenshots: []
 
