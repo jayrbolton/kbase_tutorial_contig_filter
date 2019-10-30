@@ -1,0 +1,39 @@
+#
+# define display information
+#
+name: Method Name Here
+
+tooltip: |
+    Perform some kind of method
+
+screenshots: []
+
+icon: icon.png
+
+#
+# define a set of similar apps that might be useful to the user
+#
+suggestions:
+    apps:
+        related:
+            [app1, app2]
+        next:
+            [app3, app4]
+
+#
+# Configure the display and description of parameters
+#
+parameters:
+    assembly_input_ref:
+        ui-name: |
+            Assembly object
+        short-hint: |
+            The assembly to filter (will be overwritten)
+    min_length:
+        ui-name: |
+            Min Length Threshold
+        short-hint: |
+            All contigs below this length will be removed
+
+description : |
+  <p>My tutorial app where I do stuff.</p> 
