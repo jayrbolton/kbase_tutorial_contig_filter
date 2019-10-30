@@ -2,7 +2,7 @@ module-name:
     jayrboltonTest
 
 module-description:
-    A KBase module
+    Contig filter tutorial example.
 
 service-language:
     python
