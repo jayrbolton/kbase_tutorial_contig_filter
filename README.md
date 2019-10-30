@@ -17,6 +17,12 @@ $ kb-sdk test
 
 After making any additional changes to this repo, run `kb-sdk test` again to verify that everything still works.
 
+To test the utilities independently, run:
+
+```sh
+make test-utils
+```
+
 # Installation from another module
 
 To use this code in another SDK module, call `kb-sdk install jayrboltonTest` in the other module's root directory.

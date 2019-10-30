@@ -12,11 +12,14 @@ EXECUTABLE_SCRIPT_NAME = run_$(SERVICE_CAPS)_async_job.sh
 STARTUP_SCRIPT_NAME = start_server.sh
 TEST_SCRIPT_NAME = run_tests.sh
 
-.PHONY: test
+.PHONY: test test-utils
 
 default: compile
 
 all: compile build build-startup-script build-executable-script build-test-script
+
+test-utils:
+	PYTHONPATH=lib/jayrboltonTest python -m unittest test.contig_filter_util_test
 
 compile:
 	kb-sdk compile $(SPEC_FILE) \
