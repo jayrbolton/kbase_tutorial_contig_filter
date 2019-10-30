@@ -10,7 +10,7 @@ from jayrboltonTest.authclient import KBaseAuth as _KBaseAuth
 
 from installed_clients.WorkspaceClient import Workspace
 
-_ASSEMBLY_REF = "33009/6/1"
+_ASSEMBLY_REF = "79/10/1"
 
 
 class jayrboltonTestTest(unittest.TestCase):
